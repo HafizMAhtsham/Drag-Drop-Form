@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Form Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Custom Form Builder</h1>
+
+  <div id="form-container">
+    <div id="form-builder">
+      <div class="draggable-field" data-type="text">Text Input</div>
+      <div class="draggable-field" data-type="email">Email Input</div>
+      <div class="draggable-field" data-type="textarea">Textarea</div>
+      <div class="draggable-field" data-type="checkbox">Checkbox</div>
+      <div class="draggable-field" data-type="radio">Radio Button</div>
+      <div class="draggable-field" data-type="select">Dropdown</div>
+      <div class="draggable-field" data-type="date">Date Input</div>
+      <div class="draggable-field" data-type="number">Number Input</div>
+      <div class="draggable-field" data-type="file">File Upload</div>
+      <div class="draggable-field" data-type="password">Password Input</div>
+    </div>
+
+    <div class="form-preview">
+      <form id="preview-form">
+        <button id="submit-btn" type="button">Submit Form</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
